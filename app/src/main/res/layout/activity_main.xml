@@ -22,18 +22,20 @@
         android:layout_gravity="center"
         android:text="Button Ex A!" />
 
+    <TextView
+        android:id="@+id/text_view_person_copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp" />
+
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Button Ex B!" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/buttonC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Button Ex C!" />
 
 </LinearLayout>
